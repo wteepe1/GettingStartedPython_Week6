@@ -10,6 +10,7 @@
     - If running Python in a script, variable values can be printed by using the `print()` funtion - `print(myFloat)`.
     - Define myInt and myFloat as above. Now calculate `myInt / myFloat`. What type of number is the result?
     - Now try `float(myInt)` and `int(myFloat)`. What are the results? Look back at the values of `myInt` and `myFloat`. Have they changed?
+    -   float(") converts interger to float. int(") converts float to interger
     - Changing numbers from one type to another is one form of "type casting".
 
 - Strings - `myStr = "This is a string."`

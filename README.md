@@ -67,6 +67,45 @@
 - Many text editors have a shortcut keystroke to toggle lines between being commented and uncommented. 
 - `# This is an example of a comment`
 
+## String Formatting
+  
+- Python has a special way to format strings so that the values of variables can be included
+- The operator `%` is used to indicate that the values of certain variables should be used to fill in a string
+- The parts of the string where the values should go is indicated with placeholders (kinda like wildcards)
+- The three most basic placeholders are:
+    - `%d` - An integer
+    - `%f` - A floating point number (i.e., a decimal)
+    - `%s` - A string
+- Try this:
+    - `faveInt = 7`
+    - `faveFloat = 3.14`
+    - `faveString = phyleaux`
+    - `print("Favorite integer is %d, favorite float is %f, and favorite string is %s." % (faveInt,faveFloat,faveString))`
+- Note how the variables holding the values are provided in the same order inside parentheses after the `%`.
+
+## User Input
+
+- Python has a special function, `input("Message:" )`, to accept input from a user.
+- This function reads the user input and returns it. But be sure to store it in a variable!
+    - `userStr = input("Input some string: ")`
+- You can use the string methods outlined above to standardize user input - like stripping out excess whitespace, changing character case, etc.
+
+```
+Practice Exercise
+
+Write a Python script that asks a user to input three different kinds of variables, using three 
+separate input() commands. Then use string formatting to print out the values of all three 
+variables in one string. Please do this in a Jupyter notebook.
+```
+
+## Getting help from Python
+  
+- If you need help remembering what methods are available for a given object, use `dir(<OBJECT>)`
+- Note that methods starting and ending with "__" are not meant for users to call. They are methods to be used by the system.
+- Try creating a string variable (e.g., `myStr = "some text"`).
+    - Now run `dir(myStr)`
+    - Pick a method you haven't used before and see what it does with `myStr`.
+
 ## Additional Python Resources
 
 - [Python](https://www.python.org)

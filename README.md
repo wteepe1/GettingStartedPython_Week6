@@ -170,7 +170,7 @@ elif nuc == "C":
     print("Nucleotide is a C.")
 elif nuc == "G":
     print("Nucleotide is a G.")
-elif nuc == "T"
+elif nuc == "T":
     print("Nucleotide is a T.")
 ```
             

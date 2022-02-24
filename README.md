@@ -241,7 +241,9 @@ more than once, the script should tell them that they've already purchased that 
     - `newList[4:7]` - What values are returned? How do these relate to the indices you provided?
 - You can also extract every n-th element of a list using notation like this:
     - `newList[::2]` - What values are returned now?
+    -   gives us every other number
     - `newList[2:8:2]` - How about now?
+    - every other number starting with the 3rd item and ending on the 9th
 - You can also alter individual elements of lists by using indices
     - `newList`
     - `newList[2] = 100`

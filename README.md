@@ -236,6 +236,7 @@ more than once, the script should tell them that they've already purchased that 
     - `newList.extend([4,5,6])`
     - `newList.extend([12,13,14])`
     - How does `newList` differ from what you got when you used `append()`?
+    -   extend adds mutiple items to a list, but append will nest a list
 - You can view or extract parts of a list by using indices and "slicing" the list (just remember that python starts counting at 0!)
     - `newList[4:7]` - What values are returned? How do these relate to the indices you provided?
 - You can also extract every n-th element of a list using notation like this:

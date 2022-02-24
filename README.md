@@ -287,6 +287,37 @@ for num in range(10):
     - `myTuple[1]`
     - `myTuple[1] = 5`
 
+## While loops
+
+- Sometimes we want to do something repetitively, but we don't know ahead of time how many times we need to repeat it (as in a `for` loop.
+- In these cases, we can use a `while` loop. A `while` loop will continue to do something until a certain condition is no longer satisfied.
+
+```
+num = 0
+while num < 10:
+    print(num)
+    num += 1
+```
+
+- WARNING - You need to make sure to update variables such that the condition will eventually be satisified. If you don't, you could create an infinite loop!
+
+## Dictionaries
+
+- Dictionaries are incredibly useful for storing pairs of things - known as "keys" and "values"
+- They don't store these pairs in a particular order, like lists do, but they make looking up values from keys much faster.
+- The keys and values can each be different types of variables
+- To create a new dictionary, you can use this syntax:
+    - `myDict = {"keyOne":"valueOne", "keyTwo":"valueTwo"}`
+- To look at the methods available for dictionaries, try this:
+    - `dir(myDict)`
+- You can access a value, as long as you know its key, either of these ways:
+    - `myDict.get("keyOne")`
+    - `myDict["keyOne"]`
+- You can change a value using its key, this way:
+    - `myDict["keyOne"] = <NEW_VALUE>`
+- You can add a new key/value pair using the update method:
+    - `myDict.update({<NEW_KEY:NEW_VALUE})`
+
 ## Additional Python Resources
 
 - [Python](https://www.python.org)

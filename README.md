@@ -203,7 +203,9 @@ One recipe for jambalaya calls for the following ingredients:
 - rice
 - seasoning
 
-Write a script that asks a user to enter five items they plan to purchase from the grocery store. For each item, the script should tell the user if that item is part of the jambalaya recipe. Also, if they enter a jamabalaya ingredient more than once, the script should tell them that they've already purchased that ingredient.
+Write a script that asks a user to enter five items they plan to purchase from the grocery store. For each item, the 
+script should tell the user if that item is part of the jambalaya recipe. Also, if they enter a jamabalaya ingredient 
+more than once, the script should tell them that they've already purchased that ingredient.
 ```
 
 
